@@ -1,0 +1,5 @@
+<view class="map-container">
+    <!-- <default-bar bgColor="bg-colorP" :fixed="'fixed'"></default-bar> -->
+    <map id="Map" style="width: 100%; height: 100vh;" scale="{{scale}}" controls="{{controls}}" show-location latitude="{{latitude}}"
+        longitude="{{longitude}}" markers="{{covers}}" bindmarkertap="maskerTap" bindcontroltap="controltap"></map>
+</view>

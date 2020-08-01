@@ -1,0 +1,9 @@
+<import src="../../../../vendor/wxParse/wxParse.wxml"/>
+<!-- 封面 -->
+<image wx:if="{{shopDetail.cover_img}}" style="width:100%; height:160px; background-color: #eeeeee;" src="{{shopDetail.cover_img}}"></image>
+
+<view class="tith">关于我们</view>
+
+<view class="box content">
+    <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+</view>
